@@ -1,0 +1,120 @@
+﻿html * {
+    font-family: 'Trebuchet MS';
+    color: #242424;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 16px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 50px;
+    /*outline: 1px solid blue;*/
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    width: 65%;
+    flex-direction: column;
+    align-items: center;
+    /*outline: 3px solid pink;*/
+}
+
+.ads {
+    height: 100%;
+    width: 35%;
+    /*outline: 3px solid red;*/
+}
+
+.ad-rotator {
+    top: 50%;
+    right: 0;
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 45px;
+    width: 35vw;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: #F2F2F2;
+    gap: 25px;
+    border: 2px solid slategray;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+    .user-form div {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .user-form input {
+        height: 32px;
+        font-size: 16px;
+        margin-top: 0;
+        border-radius: 7px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .user-form span {
+        margin: 0;
+    }
+
+    .user-form a {
+        color: darkblue;
+    }
+
+    .user-form input[type=submit] {
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+        height: 40px;
+        cursor: pointer;
+        transition: background-color 150ms ease-in-out;
+    }
+
+        .user-form input[type=submit]:hover {
+            background-color: #1f1f1f;
+            color: white;
+        }
+
+.required-validator {
+    color:tomato;
+    font-size:12px;
+}

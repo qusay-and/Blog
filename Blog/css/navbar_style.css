@@ -1,0 +1,71 @@
+﻿/********************************************************/
+/*                     Navbar                           */
+/********************************************************/
+:root {
+    --navbar-height: 38px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--navbar-height);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #F2F2F2;
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.navbar-logo {
+    height: var(--navbar-height);
+}
+
+.navbar-left {
+    gap: 40px;
+}
+
+.navbar-middle {
+    gap: 16px;
+}
+
+.navbar-right {
+    gap: 16px;
+}
+
+.navbar > div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--navbar-height);
+}
+
+.navbar  a {
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+}
+
+.navbar  a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.navbar > a {
+    text-decoration: none;
+}
+
+.navbar-search-button {
+    height: var(--navbar-height);
+}
+
+.navbar-profile {
+    height: 32px;
+}
+
+.navbar-searchbox {
+    height: 32px;
+    width: 300px;
+    font-size: 16px;
+    border-color:dimgray;
+    border-radius:7px;
+}

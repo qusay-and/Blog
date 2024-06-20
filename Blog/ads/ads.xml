@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+	
+	<Ad>
+		<ImageUrl>/ads/apartment.jpg</ImageUrl>
+		<NavigateUrl>https://google.com/search?q=apartment</NavigateUrl>
+		<AlternateText>
+			Buy a apartment
+		</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>apartment</Keyword>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>/ads/car.jpg</ImageUrl>
+		<NavigateUrl>https://google.com/search?q=car</NavigateUrl>
+		<AlternateText>
+			Buy a car
+		</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>car</Keyword>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>/ads/coffee.jpg</ImageUrl>
+		<NavigateUrl>https://google.com/search?q=coffee</NavigateUrl>
+		<AlternateText>
+			Buy a coffee
+		</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>coffee</Keyword>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>/ads/sheep.jpg</ImageUrl>
+		<NavigateUrl>https://google.com/search?q=sheep</NavigateUrl>
+		<AlternateText>
+			Buy a sheep
+		</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>sheep</Keyword>
+	</Ad>
+
+</Advertisements>

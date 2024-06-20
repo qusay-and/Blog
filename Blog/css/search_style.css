@@ -1,0 +1,24 @@
+﻿.articles {
+    width: 70%;
+}
+
+.article {
+    padding: 16px;
+    height: 30vh;
+}
+
+hr {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: 3px;
+    border: none;
+    background-color: #F2F2F2;
+}
+
+.load-more-button {
+    padding: 16px;
+    background-color: #F2F2F2;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
